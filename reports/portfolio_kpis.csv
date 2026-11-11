@@ -1,0 +1,3 @@
+period_start,policies,earned_policy_years,earned_premium_gbp,claims,paid_gbp,reserves_gbp,incurred_gbp,claims_per_100_policy_years,avg_incurred_severity_gbp,incurred_loss_ratio_pct
+2025-01-01,48,24.0,16590.0,4,5550.0,1400.0,6950.0,16.67,1737.5,41.89
+2026-01-01,48,24.0,17585.4,6,11400.0,10100.0,21500.0,25.0,3583.33,122.26
