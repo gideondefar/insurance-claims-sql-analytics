@@ -20,7 +20,20 @@ The project implements a **five-table relational MySQL database** that separates
 **Synthetic-sample observation:** Reported claim frequency rose from **16.67 to 25.00 claims per 100 earned policy-years**; incurred loss ratio rose from **41.89% to 122.26%**. The analysis reconciles **10 claims**, including claims with more than one payment transaction.
 
 
-![Incurred loss ratio for the two synthetic H1 periods](assets/loss_ratio_by_period.svg)
+## Underwriting performance dashboard
+
+![Synthetic underwriting dashboard comparing incurred loss ratio and claims frequency in H1 2025 and H1 2026](assets/underwriting_performance_dashboard.svg)
+
+**Risk identified:** H1 2026 incurred loss ratio was **122.26%**, exceeding the 100% claims-to-premium benchmark by 22.26 percentage points (and up 80.37 points year on year), while claims frequency rose from **16.67 to 25.00 per 100 earned policy-years**. Earned premiums rose approximately 6%, but incurred claims rose approximately 209%. These are **investigation signals, not proof of a market trend or sufficient evidence for a pricing change**, given just 48 synthetic policies and 10 claims.
+
+The dashboard is built from [period-level SQL KPI output](reports/portfolio_kpis.csv). Review the [Matplotlib source](scripts/plot_underwriting_dashboard.py) to see the source-data reconciliation checks and how the chart is generated. To reproduce the **PNG and SVG** locally, install Matplotlib and run:
+
+```bash
+python3 -m pip install matplotlib
+python3 scripts/plot_underwriting_dashboard.py
+```
+
+The source records are fabricated and all charts must be labelled as illustrative. The [original single-metric loss ratio chart](assets/loss_ratio_by_period.svg) is retained for comparison.
 
 The sample shows a deterioration in incurred loss ratio despite premium growth. This is a signal to **investigate**, not a reliable pricing recommendation, because the sample includes only 48 policies and case reserves are illustrative.
 
@@ -31,6 +44,7 @@ The sample shows a deterioration in incurred loss ratio despite premium growth. 
 - **SQL analysis:** used aggregate views, joins, left joins, GROUP BY, conditional aggregation, NULLIF and reporting by product, risk band and distribution channel.
 - **Reconciliation:** aggregated multiple payment rows per claim **before** joining claims to policy exposure, avoiding the common error of duplicated claim counts or premium totals.
 - **Quality assurance:** wrote 11 SQL validation checks plus seven automated regression tests in Python's standard-library `unittest` framework.
+- **Visualisation and risk reporting:** added a two-panel underwriting dashboard with a 100% loss-ratio benchmark, frequency comparison and explicit risk interpretation. Matplotlib script independently reconciles CSV totals before drawing charts.
 
 ## How to run
 
@@ -65,6 +79,8 @@ The test harness adapts limited MySQL-specific setup syntax to SQLite. Passing t
 | `sql/05_quality_checks.sql` | Data-quality and reconciliation checks |
 | `tests/test_metrics.py` | Regression tests for logic and constraints |
 | `reports/portfolio_kpis.csv` | Reproducible period-level KPI output |
+| `assets/underwriting_performance_dashboard.svg` | Visual portfolio risk dashboard |
+| `scripts/plot_underwriting_dashboard.py` | Reproducible Matplotlib PNG/SVG chart source |
 | `docs/data_dictionary.md` | Data definitions, formulas and limitations |
 | `docs/architecture.md` | ER diagram and modelling decisions |
 
