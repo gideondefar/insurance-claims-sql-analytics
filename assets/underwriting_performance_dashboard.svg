@@ -1,0 +1,63 @@
+<svg width="1008pt" height="648pt" version="1.1" viewBox="0 0 1008 648" xmlns="http://www.w3.org/2000/svg">
+<defs><style type="text/css">*{stroke-linejoin:round;stroke-linecap:butt}</style></defs>
+<path d="m0 648h1008v-648h-1008z" fill="#f5f8fc"/>
+<path d="m56.448 411.48h426.38q14.112 0 14.112-9.072v-280.58q0-9.072-14.112-9.072h-426.38q-14.112 0-14.112 9.072v280.58q0 9.072 14.112 9.072z" fill="#fff" stroke="#dbe4ed"/>
+<path d="m525.17 411.48h426.38q14.112 0 14.112-9.072v-280.58q0-9.072-14.112-9.072h-426.38q-14.112 0-14.112 9.072v280.58q0 9.072 14.112 9.072z" fill="#fff" stroke="#dbe4ed"/>
+<path d="m56.448 487.94h895.1q14.112 0 14.112-9.072v-48.6q0-9.072-14.112-9.072h-895.1q-14.112 0-14.112 9.072v48.6q0 9.072 14.112 9.072z" fill="#fff" stroke="#dbe4ed"/>
+<path d="m56.448 585.14h895.1q14.112 0 14.112-9.072v-73.224q0-9.072-14.112-9.072h-895.1q-14.112 0-14.112 9.072v73.224q0 9.072 14.112 9.072z" fill="#fff1f0" stroke="#efc1bf"/>
+<text x="60.48" y="33.048" fill="#2f71bc" font-family="'DejaVu Sans'" font-size="11px" font-weight="700">INSURANCE PERFORMANCE MONITOR</text>
+<text x="60.48" y="62.208" fill="#14243b" font-family="'DejaVu Sans'" font-size="25px" font-weight="700">Underwriting signals | H1 2025 vs H1 2026</text>
+<text x="60.48" y="86.832" fill="#66768b" font-family="'DejaVu Sans'" font-size="10.5px">Synthetic UK motor &amp; home portfolio • 48 fictional policies • 10 claims across both periods</text>
+<text x="74.592" y="138.672" fill="#14243b" font-family="'DejaVu Sans'" font-size="13px" font-weight="700">INCURRED LOSS RATIO</text>
+<text x="74.592" y="156.816" fill="#66768b" font-family="'DejaVu Sans'" font-size="10px">Incurred claims ÷ earned premium</text>
+<text x="543.312" y="138.672" fill="#14243b" font-family="'DejaVu Sans'" font-size="13px" font-weight="700">CLAIMS FREQUENCY</text>
+<text x="543.312" y="156.816" fill="#66768b" font-family="'DejaVu Sans'" font-size="10px">Claims per 100 earned policy-years</text>
+<text x="80.64" y="454.248" fill="#14243b" font-family="'DejaVu Sans'" font-size="18px" font-weight="700">+6.0%</text>
+<text x="80.64" y="470.448" fill="#66768b" font-family="'DejaVu Sans'" font-size="9.5px">Earned premium growth</text>
+<text x="357.84" y="454.248" fill="#14243b" font-family="'DejaVu Sans'" font-size="18px" font-weight="700">+209.4%</text>
+<text x="357.84" y="470.448" fill="#66768b" font-family="'DejaVu Sans'" font-size="9.5px">Incurred claims-cost growth</text>
+<text x="665.28" y="454.248" fill="#14243b" font-family="'DejaVu Sans'" font-size="18px" font-weight="700">4 → 6</text>
+<text x="665.28" y="470.448" fill="#66768b" font-family="'DejaVu Sans'" font-size="9.5px">Number of claims</text>
+<text x="75.6" y="517.752" fill="#c94a48" font-family="'DejaVu Sans'" font-size="12px" font-weight="700">RISK SIGNAL • INVESTIGATE, NOT A PRICING DECISION</text>
+<text x="75.6" y="539.784" fill="#14243b" font-family="'DejaVu Sans'" font-size="11px">H1 2026 incurred loss ratio exceeded 100%: £21,500 incurred vs £17,585 earned premiums.</text>
+<text x="75.6" y="559.872" fill="#14243b" font-family="'DejaVu Sans'" font-size="10.5px">Check claim frequency, severity, case reserves and product/risk segments; reconcile underlying records.</text>
+<text x="55.44" y="609.12" fill="#66768b" font-family="'DejaVu Sans'" font-size="9px">Source: reports/portfolio_kpis.csv | Two six-month periods | Reserve valuation: 31 Aug 2026</text>
+<text x="55.44" y="623.376" fill="#66768b" font-family="'DejaVu Sans'" font-size="9px">Illustrative AI-assisted portfolio sample only. Not actual insurer performance; too small for reliable pricing inference.</text>
+<text x="180.016941" y="379.294281" fill="#14243b" font-family="'DejaVu Sans'" font-size="11px" text-anchor="middle">H1 2025</text>
+<text x="365.311059" y="379.294281" fill="#14243b" font-family="'DejaVu Sans'" font-size="11px" text-anchor="middle">H1 2026</text>
+<path d="m83.664 360.94h378" clip-path="url(#a)" fill="none" stroke="#dbe4ed" stroke-width=".7"/>
+<text x="76.664" y="364.355297" fill="#66768b" font-family="'DejaVu Sans'" font-size="9px" text-anchor="end">0%</text>
+<path d="m83.664 301.36h378" clip-path="url(#a)" fill="none" stroke="#dbe4ed" stroke-width=".7"/>
+<text x="76.664" y="304.781103" fill="#66768b" font-family="'DejaVu Sans'" font-size="9px" text-anchor="end">50%</text>
+<path d="m83.664 241.79h378" clip-path="url(#a)" fill="none" stroke="#dbe4ed" stroke-width=".7"/>
+<text x="76.664" y="245.20691" fill="#66768b" font-family="'DejaVu Sans'" font-size="9px" text-anchor="end">100%</text>
+<path d="m83.664 182.21h378" clip-path="url(#a)" fill="none" stroke="#dbe4ed" stroke-width=".7"/>
+<text x="76.664" y="185.632716" fill="#66768b" font-family="'DejaVu Sans'" font-size="9px" text-anchor="end">150%</text>
+<path d="m83.664 241.79h378" clip-path="url(#a)" fill="none" stroke="#c94a48" stroke-dasharray="8.5,6.8" stroke-width="1.7"/>
+<path d="m83.664 360.94h378" fill="none" stroke="#dbe4ed" stroke-width=".8"/>
+<path d="m126.28 360.94h107.47v-49.911h-107.47z" clip-path="url(#a)" fill="#2f71bc"/>
+<path d="m311.58 360.94h107.47v-145.67h-107.47z" clip-path="url(#a)" fill="#c94a48"/>
+<text x="92.928706" y="237.021677" fill="#c94a48" font-family="'DejaVu Sans'" font-size="9px">100% reference</text>
+<text x="180.016941" y="303.139274" fill="#14243b" font-family="'DejaVu Sans'" font-size="15px" font-weight="700" text-anchor="middle">41.89%</text>
+<text x="365.311059" y="207.379715" fill="#14243b" font-family="'DejaVu Sans'" font-size="15px" font-weight="700" text-anchor="middle">122.26%</text>
+<path d="m242.72 196.1h63.587q3.85 0 3.85-3.85v-10.646q0-3.85-3.85-3.85h-63.587q-3.85 0-3.85 3.85v10.646q0 3.85 3.85 3.85z" fill="#fff1f0"/>
+<text x="274.516941" y="189.958065" fill="#c94a48" font-family="'DejaVu Sans'" font-size="11px" font-weight="700" text-anchor="middle">+80.37 pp</text>
+<text x="649.744941" y="379.294281" fill="#14243b" font-family="'DejaVu Sans'" font-size="11px" text-anchor="middle">H1 2025</text>
+<text x="835.039059" y="379.294281" fill="#14243b" font-family="'DejaVu Sans'" font-size="11px" text-anchor="middle">H1 2026</text>
+<path d="m553.39 360.94h378" clip-path="url(#b)" fill="none" stroke="#dbe4ed" stroke-width=".7"/>
+<text x="546.392" y="364.355297" fill="#66768b" font-family="'DejaVu Sans'" font-size="9px" text-anchor="end">0</text>
+<path d="m553.39 304.97h378" clip-path="url(#b)" fill="none" stroke="#dbe4ed" stroke-width=".7"/>
+<text x="546.392" y="308.391661" fill="#66768b" font-family="'DejaVu Sans'" font-size="9px" text-anchor="end">10</text>
+<path d="m553.39 249.01h378" clip-path="url(#b)" fill="none" stroke="#dbe4ed" stroke-width=".7"/>
+<text x="546.392" y="252.428024" fill="#66768b" font-family="'DejaVu Sans'" font-size="9px" text-anchor="end">20</text>
+<path d="m553.39 193.05h378" clip-path="url(#b)" fill="none" stroke="#dbe4ed" stroke-width=".7"/>
+<text x="546.392" y="196.464388" fill="#66768b" font-family="'DejaVu Sans'" font-size="9px" text-anchor="end">30</text>
+<path d="m553.39 360.94h378" fill="none" stroke="#dbe4ed" stroke-width=".8"/>
+<path d="m596.01 360.94h107.47v-93.291h-107.47z" clip-path="url(#b)" fill="#a3c9ee"/>
+<path d="m781.3 360.94h107.47v-139.91h-107.47z" clip-path="url(#b)" fill="#2f71bc"/>
+<text x="649.744941" y="258.369087" fill="#14243b" font-family="'DejaVu Sans'" font-size="15px" font-weight="700" text-anchor="middle">16.67</text>
+<text x="835.039059" y="211.751378" fill="#14243b" font-family="'DejaVu Sans'" font-size="15px" font-weight="700" text-anchor="middle">25.00</text>
+<path d="m700.19 197.5h91.816q3.85 0 3.85-3.85v-10.646q0-3.85-3.85-3.85h-91.816q-3.85 0-3.85 3.85v10.646q0 3.85 3.85 3.85z" fill="#e7f1fc"/>
+<text x="746.097882" y="191.366182" fill="#2f71bc" font-family="'DejaVu Sans'" font-size="11px" font-weight="700" text-anchor="middle">+50% increase</text>
+<defs><clipPath id="a"><rect x="83.664" y="176.26" width="378" height="184.68"/></clipPath><clipPath id="b"><rect x="553.39" y="176.26" width="378" height="184.68"/></clipPath></defs>
+</svg>
